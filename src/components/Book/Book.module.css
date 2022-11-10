@@ -1,0 +1,21 @@
+.bookName {
+  word-break: break-word;
+  padding-right: 8px;
+}
+
+.bookCopies {
+  padding-left: 12px;
+}
+
+.buttonBorrow {
+  max-height: 22px;
+  max-width: 60px;
+}
+
+.book {
+  display: grid;
+  grid-template-columns: 1fr 200px repeat(3, 1fr) 200px;
+  padding: 0 8px;
+  width: 750px;
+  margin-bottom: 12px;
+}

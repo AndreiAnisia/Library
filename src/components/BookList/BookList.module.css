@@ -1,0 +1,16 @@
+.bookList {
+  width: 650px;
+  margin-top: 80px;
+}
+
+.tableHead {
+  display: grid;
+  grid-template-columns: 1fr 200px repeat(3, 1fr) 200px;
+  align-items: center;
+  margin-bottom: 16px;
+  background-color: aqua;
+  height: 40px;
+  padding: 0px 8px;
+  width: 750px;
+  border-radius: 10px;
+}
